@@ -1,0 +1,396 @@
+body{
+    overflow-x: hidden;
+    
+  }
+  *{
+    /* border: 1px solid red; */
+  }
+  /* NAVBAR */
+  /* .navbar{
+    display: none;
+  } */
+  .invizibil{
+    display: none;
+  }
+  .apare{
+    display: block;
+  }
+  .bg-color {
+    background-color: #2b3594;
+  }
+  .bg-trans {
+    background-color: none;
+  }
+  .nav-sus{
+      /* background-color: #2b3594; */
+      /* opacity: 70%; */
+      width: 100vw;
+      
+  }
+  
+  .logo{
+      margin-left: 2%;
+      width: 70px;
+  }
+  .btn-exp{
+      background: white;
+  }
+  .nb-icon{
+    color: #fff;
+  }
+  .c-button button{
+    background: #fff;
+    color:  #2b3594;
+    border-radius: 10px;
+    border: 0px solid #000;
+    /* font-family: "Oswald", sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    padding: 8px;
+    min-width: 50px;
+    margin: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: color 0.2s linear;
+    position: relative;
+    z-index: 1;
+    font-size: 23px;
+    opacity: 100%;
+  }
+  @media screen and (max-width: 790px) {
+    .c-button button{
+      background: none;
+      color:  #fff;
+      border-radius: 0;
+      padding: 0;
+    }
+    
+   }
+
+  /* AMINATIE BUTOANE */
+  .nav-link{
+    background: none;
+    border: 0px solid #000;
+    /* font-family: "Oswald", sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    padding: 8px;
+    min-width: 50px;
+    margin: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: color 0.2s linear;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 23px;
+    opacity: 100%;
+  }
+  .nav-link:hover {
+    color: #2b3594;
+  }
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+    transition: transform 0.75s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+  }
+  .nav-link:hover::before {
+    transform: scaleX(1);
+  }
+  
+  /* INTRO */
+  html,
+  body,
+  header,
+  .moto-case,
+  #intro{
+    height: auto; 
+  }
+  .poza-mare img{
+    width: 100vw;
+    
+  }
+
+  /* SECTIUNEA 1 */
+  .linie{
+    width: 80vw;
+    height: 10px;
+    background-color: #2b3594;
+  }
+  
+  .titlu-sezon{
+    width: 100%;
+    padding-bottom: 55px;
+  }
+  .titlu-sezon h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+  }
+  
+  .imagine{
+    width: 100vw;
+    padding-bottom: 35px;
+  }
+  .imagine img{
+    width: 100%;
+  }
+  .sectiune{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 200px;
+    width: 100vw;
+    margin: 0;
+  }
+  .sectiune-s{
+    width: 100%;
+    margin: 0;
+  }
+  .ultima-sectiune{
+    padding-bottom: 40px !important;
+  }
+  #evenimente-sez3{
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .matrice{
+    width: 100vw;
+  }
+  .ev-ac{
+    width: 300px;
+    /* height: 255px; */
+    padding: 0 ;
+    margin: 15px;
+    
+  }
+  .ev-ac:hover{
+    transform: scale(1.05);
+    opacity: 90%;
+  }
+  .ev-ac img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+      
+  }
+  .evenimenteac{
+    overflow: hidden;
+  }
+  /* .evenimenteac img:hover{
+    
+      transform: scale(1.2);
+  
+  } */
+  .eveniment-academy-nume{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    font-size: 30px;
+    width: 300px;
+    margin: 0;
+    padding-left:10px ;
+    font-weight: 200;
+  }
+  .eveniment-academy-nume-maisus{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 220px;
+    font-size: 30px;
+    width: 300px;
+    margin: 0;
+    padding-left:10px ;
+    font-weight: 200;
+  }
+  .eveniment-ac-mij{
+    height: 300px;
+    width: 300px;
+    -webkit-box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+  }
+ 
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  /* ALTCEVA */
+  .width-max{
+    width: 100vw;
+  }
+  .padding-0{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  /* BARA JOS */
+  .bara-jos{
+    margin-top: 7.5%;
+    background-color: #2b3594;
+    padding: 30px 30px;
+    width: 100vw;
+  }
+  
+  .sigla0 img{
+    display: none;
+  }
+  .sigla1 img{
+    height: 150px;
+    
+  }
+  .sigla2 img{
+    height: 100px;
+  }
+  .sigla2{
+    padding-left: 50px;
+  }
+  .sigla3 img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+  }
+  .sigla3{
+    padding-right: 5%;
+  }
+  .mail{
+    color: #fff;
+  }
+  .locatie img{
+    height: 50px;
+    width: 40px;
+  }
+  .locatie p{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .sigle-mari{
+    padding-left: 50px;
+  }
+  #contact{
+    padding: 0;
+  }
+  .b-locatie{
+    display: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 1240px) {
+    .titlu-sezon h1{
+      font-size: 50px;
+    }
+    /* BARA JOS */
+    .sigla2{
+      display: none !important;
+    }
+    .sigle-mari{
+      padding-left: 0;
+    }
+    
+  }
+  @media screen and (max-width: 790px) {
+    .titlu-sezon h1{
+      font-size: 30px;
+    }
+   /* BARA JOS */
+   .locatie img,
+   .locatie p,
+   .sigla1 img,
+   .mail{
+     display: none;
+   }
+   .bara-jos{
+     flex-direction: column;
+   }
+   .sigle-mari{
+     order: 2 !important;
+   }
+   .sigla0 img{
+     display: block;
+     width: 90vw;
+     padding-top: 20px;
+   }
+   .b-locatie{
+     display: block;
+   }
+  
+  
+  }
+  @media screen and (max-width: 600px) {
+    .titlu-sezon h1{
+      font-size: 25px;
+    }
+    .matrice{
+      margin: 0;
+    }
+   
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

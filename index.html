@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./home.css" />
+    <link href = "./Icons/css/all.css" rel = "stylesheet" type = "text/css">
+    <title>Xeo</title>
+  </head>
+  <body>
+
+    <header class="nvbar">
+    <nav id="bara-sus" class="navbar navbar-expand-xl fixed-top nav-sus nvbar">
+        <img src=".//imagini/WHITE ROUND XEO.png" alt="" class="logo" onclick="window.location.href='/index.html'">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" onclick="burger()">
+          <i class = "fas fa-bars nb-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto nav-links">
+                <li class="nav-item nav-links-li"><button class="nav-link"  onclick="window.location.href='/index.html'">HOME</button></li>
+                <li class="nav-item nav-links-li"><button class="nav-link" href="first.html" onclick="window.location.href='/first.html'">FIRST</button></li>
+                
+                
+                <li class="nav-item nav-links-li dropdown">
+                  <button class="nav-link dropdown-toggle" id="dropevents" role="button" data-toggle="dropdown" >ABOUT US</button>
+                  <div class="dropdown-menu dropdown_menu-6" aria-labelledby="dropevents">
+                    <button class="dropdown-item" onclick="window.location.href='/aboutTeamXeo.html'">Team Xeo</button>
+                    <button class="dropdown-item" onclick="window.location.href='/aboutTeamXeo.html#xeoacademy'">Xeo Academy</button>
+                    <button class="dropdown-item" onclick="window.location.href='/aboutTeamXeo.html#alumni'">Xeo Alumni</button>
+                    
+                  </div>
+                </li>
+                <li class="nav-item nav-links-li dropdown">
+                  <button class="nav-link dropdown-toggle" id="dropevents" role="button" data-toggle="dropdown" >EVENTS</button>
+                  <div class="dropdown-menu dropdown_menu-6" aria-labelledby="dropevents">
+                    <button class="dropdown-item" onclick="window.location.href='/evenimente.html'">Ultimate Goal</button>
+                    <button class="dropdown-item" onclick="window.location.href='/evenimente.html#evenimente-sez4'">Skystone</button>
+                    <button class="dropdown-item" onclick="window.location.href='/evenimente.html#evenimente-sez3'">Rover Ruckus</button>
+                    
+                  </div>
+                </li>
+                <li class="nav-item nav-links-li"><button class="nav-link" onclick="window.location.href='/index.html#sponsors'">SPONSORS</button></li>
+                <li class="nav-item nav-links-li"><button class="nav-link" onclick="window.location.href='/contact.html'">CONTACT</button></li>
+
+            </ul>
+        </div>      
+    </nav>
+   
+
+    <div id="intro" class="view">
+      <div class="container-fluid full-bg-img d-flex flex-column justify-content-end moto-case">
+        <div class="row d-flex flex-row ">
+          <div class="moto">
+            <h1 class="my-4">Team divides tasks and multiplies the success</h1>
+            <!-- <h1 class="my-4 display-4">tasks</h1> -->
+            <!-- <h1 class="my-4 display-md-4">and multiplies success.</h1> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="mt-5">
+
+
+      <section id="about-us" class="container-fluid sectiune-1">
+          <div class="row d-flex sectiune-1s width-max">
+            <div class="col d-flex flex-column justify-content-center align-items-center width-max">
+                <h1 class="noi">Team RO001 Xeo</h1>
+                <p class="text-sectiune-1">
+                  We are a group of students from the National College "Horea, Closca and Crisan" in Alba Iulia, passionate about robotics.  We aspire to help the world through our activities, participating in the FIRST Tech Challange Romania competition for four years now
+
+                </p>
+                <a href = "#" class = "ButtonLink" onclick="window.location.href='/aboutTeamXeo.html'">Learn more about us</a>
+            </div>
+            <div class="col d-flex justify-content-center poza-laterala">
+                <img class="" src="./imagini/ceva.jpg" alt="">
+            </div>
+          </div>
+      </section>
+      
+
+      
+      <section id="seasons" class="container-fluid sezoane">
+        <div class="row d-flex flex-column">
+          <div class="col d-flex justify-content-center ">
+              <h1 class="titlu-sezoane">Last Seasons</h1>
+          </div>
+          <div class="col poze-sezoane row ">
+              <div class="col d-flex poze-sezoane-c1 poze-sezoane-c ">
+                <img class="lazy" src="./imagini/skystone.svg" alt="" height= "300" width = "300">
+                <img class="lazy" src="./imagini/rover_rucus.svg" alt="" height= "300" width = "300">
+              </div>
+              <div class="col d-flex poze-sezoane-c">
+                <img class="lazy" src="./imagini/relic recovery.jpg" alt="" height= "300" width = "300">
+                <img class="lazy" src="./imagini/velocity vortex.jpg" alt="" height= "300" width = "300">
+              </div>
+              
+          </div>
+          <div class="col row d-flex sezon-actual">
+              <div class="col d-flex flex-column justify-content-center align-items-center padding-0 text-sezoane">
+                <h1>Season on going</h1>
+                <img class="sezon-actual-poza2" src="./imagini/goal.svg" alt="">
+                <p>The theme of this year is Game Changers, a suiting name for difficulties that we are hoping to overcome alongside the other contestants. On this occasion, we have two options, the remote participation or the live one. Some things never change, like our iconic mentality, coined by Dr. Woodie Flowers, "Gracious Professionalism" being one of these exceptions. This motto represents fair play and an empowering spirit of competition. The challenges are as demanding as any other season, but this time we may participate in the remote events due to the coronavirus crises dissolving the alliances. But no matter what life throws at us we will always get right back up, and this competition is the starting point of showing it to everyone out there, as Mr. Flowers would have wanted.
+                </p>
+              </div>
+              <div class="col sezon-actual-poza d-flex"><img src="./imagini/goal.svg" alt=""></div>
+          </div>
+        </div>
+        
+      </section>
+     
+
+
+      <section id="sponsors" class="container-fluid ">
+        <div class="">
+          <div class="text-center widt  text-sponsori">
+              <h1 class = "Titlu-Sponsori">Our Sponsors</h1>
+          </div>
+
+         <div class="top-content">
+          <div class="container-fluid">
+           <div id="carousel-example" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active img-crs">
+                    <img src="/imagini/Sponsori/1.jpg" class="img-fluid mx-auto d-block" alt="img1">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                    <img src="/imagini/Sponsori/2.jpg" class="img-fluid mx-auto d-block" alt="img2">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                    <img src="/imagini/Sponsori/3.jpg" class="img-fluid mx-auto d-block" alt="img3">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                    <img src="/imagini/Sponsori/4.png" class="img-fluid mx-auto d-block" alt="img4">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                    <img src="/imagini/Sponsori/5.jpg" class="img-fluid mx-auto d-block" alt="img5">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                    <img src="/imagini/Sponsori/6.jpg" class="img-fluid mx-auto d-block" alt="img6">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                    <img src="/imagini/Sponsori/7.png" class="img-fluid mx-auto d-block" alt="img7">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                    <img src="/imagini/Sponsori/8.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/9.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/10.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/11.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/12.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/13.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/14.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/15.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/16.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div> 
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/17.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/18.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/19.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/20.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/21.png" class="img-fluid mx-auto d-block" alt="img8">
+                </div>  
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 img-crs">
+                  <img src="/imagini/Sponsori/22.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                </div>            
+              </div>
+                   <a class="carousel-control-prev btc" href="#carousel-example" role="button" data-slide="prev">
+                       <span class="" aria-hidden="true"> <img src="./imagini/sageata stanga.png" alt=""></span>
+                       
+                   </a>
+                   <a class="carousel-control-next btc" href="#carousel-example" role="button" data-slide="next">
+                       <span class="" aria-hidden="true"> <img src="./imagini/sageata dreapta.png" alt=""></span>
+                       
+                   </a>
+           </div>
+          </div>
+         </div>
+
+        </div>
+      </section>
+      
+
+
+
+      <section id="contact" class="container-fluid">
+        <div class="bara-jos d-flex justify-content-between">
+          <div class="row sigle-mari">
+            <div class="col sigla1 d-flex justify-content-center align-items-center">
+              <img src="./imagini/SIGLA NATIE BARA JOS SITE.png" alt="">
+            </div>
+            <div class="col sigla2 d-flex justify-content-center align-items-center">
+              <img src="./imagini/SIGLA XEO ALBA + SIGLA HCC.png" alt="">
+            </div>
+            <div class="col sigla0 d-flex justify-content-center align-items-center">
+              <img src="./imagini/SIGLA NATIE ALBA.png" alt="">
+            </div>
+          </div>
+
+          <div class="sigla3 justify-content-center align-items-center">
+            <div class="d-flex iconite-c justify-content-center">
+              <img class="b-locatie" src="./imagini/buton_locatie.svg" alt="">
+              <img src="./imagini/buton_fb.svg" alt="" onclick="window.location.href='https://www.facebook.com/TeamXeoFTC/'">
+              <img src="./imagini/buton_insta.svg" alt="" onclick="window.location.href='https://www.instagram.com/teamxeo/'">
+              <img src="./imagini/buton_twitter.svg" alt="" onclick="window.location.href='https://twitter.com/ftc_14278?lang=en'">
+              <img src="./imagini/buton_mail.svg" alt="" onclick="window.location.href='mailto:xeoalbaiulia@gmail.com'">
+            </div>
+            <h3 class="mail">xeoalbaiulia@gmail.com</h3> 
+            <div class="d-flex locatie">
+              <img class="" src="./imagini/SIGLA LOCATIE ALBA.png" alt="">
+              <div class="d-flex flex-column">
+               <p>Bvd. 1 Decembrie 1918 Nr. 11,</p>
+               <p>Alba Iulia, Romania</p> 
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+        
+
+         
+      </section>
+
+
+
+
+  </main>
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./jquery.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>    
+  </body>
+</html>
